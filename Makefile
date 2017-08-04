@@ -1,5 +1,5 @@
 OBJ= loadflac.o ex_loadflac.o
-CFLAGS += -std=c99 -g
+CFLAGS += -g
 LDFLAGS += -lm -lsoundpipe -lsndfile
 
 default: ex_loadflac
